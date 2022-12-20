@@ -8,7 +8,7 @@ void clean_disk(string disk){
     clean.open("src/diskpart_scripts/clean", ios::out);
     clean << script;
     clean.close();
-    cout << "Are you sure you want to clean the disk (y/n)";
+    cout << "\n Are you sure you want to clean the disk (y/n)";
     cout << "\n\n -> ";
     cin >> sure;
     if(sure == "y" || "Y"){
